@@ -45,6 +45,14 @@ DEFAULT_REQUEST_HEADERS = {
   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
   'Accept-Language': 'en',
 }
+# 主机名
+MONGODB_HOST = '127.0.0.1'
+# 端口号
+MONGODA_PORT = 27017
+# 数据库名
+MONGODB_DBNAME = "MaoYan"
+# 存放数据表的名字
+MONGODB_SHEETNAME = "maoyanTop100"
 
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
